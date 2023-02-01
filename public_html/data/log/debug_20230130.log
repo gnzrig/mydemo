@@ -1,0 +1,24 @@
+[2023-01-30 14:10:04] 127.0.0.1 : /main/index.jsp
+[{__ord=1, id=1, __first=true, username=ganzo, content=This is content, email=ganzo@gmail.com, items=, __last=true, password=1234}]
+[2023-01-30 14:10:04] 127.0.0.1 : /main/index.jsp
+
+[2023-01-30 14:10:48] 127.0.0.1 : /main/index.jsp
+[{__ord=1, id=1, __first=true, username=ganzo, content=This is content, email=ganzo@gmail.com, items=, __last=true, password=1234}]
+[2023-01-30 14:10:48] 127.0.0.1 : /main/index.jsp
+
+[2023-01-30 14:11:00] 127.0.0.1 : /main/index.jsp
+[{__ord=1, id=1, __first=true, username=ganzo, content=This is content, email=ganzo@gmail.com, items=, __last=true, password=1234}]
+[2023-01-30 14:11:00] 127.0.0.1 : /main/index.jsp
+<=---
+[2023-01-30 14:11:54] 127.0.0.1 : /main/index.jsp
+[{__ord=1, id=1, __first=true, username=ganzo, content=This is content, email=ganzo@gmail.com, items=, __last=true, password=1234}]
+[2023-01-30 14:11:54] 127.0.0.1 : /main/index.jsp
+<=---
+[2023-01-30 14:12:56] 127.0.0.1 : /main/index.jsp
+[{__ord=1, id=1, __first=true, username=ganzo, content=This is content, email=ganzo@gmail.com, items=, __last=true, password=1234}]
+[2023-01-30 14:12:56] 127.0.0.1 : /main/index.jsp
+<=---
+[2023-01-30 14:13:19] 127.0.0.1 : /main/index.jsp
+[{__ord=1, id=1, __first=true, username=ganzo, content=This is content, email=ganzo@gmail.com, items=, __last=true, password=1234}]
+[2023-01-30 14:13:19] 127.0.0.1 : /main/index.jsp
+<=---

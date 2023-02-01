@@ -1,0 +1,28 @@
+
+<style>
+    th, td {
+        padding: 3px;
+    }
+    table{
+        border-spacing: 0;
+    }
+</style>
+<table border="1px">
+    <tr>
+        <th>No</th>
+        <th>Course name</th>
+        <th>Course Description</th>
+        <th>Edit</th>
+    </tr>
+    <form method="post">
+        <!--@loop(clist)-->
+        <tr>
+            <td style="font-weight: bold">{{clist.id}}</td>
+            <td><input type="text" name="course_name" value="{{clist.course_name}}" size="30"></td>
+            <td><input type="text" name="course_desc" value="{{clist.course_desc}}" size="50"></td>
+            <td><input type="submit" value="Change" size="10" style="margin:3px;"></td>
+        </tr>
+        <!--/loop(clist)-->
+    </form>
+    {{form_script}}
+</table>

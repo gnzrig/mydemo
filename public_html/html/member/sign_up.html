@@ -1,0 +1,30 @@
+
+<h1>Sign Up</h1>
+
+<form name="form1" method="post" action="#">
+    <input type="text" placeholder="Username" name="username"><br><br>
+    <input type="text" placeholder="Email address" name="email"><br><br>
+    <input type="password" id="password" placeholder="Password" name="passwd"><br><br>
+    <input type="password" id="confirm_password" placeholder="Confirm password" name="passwd1"><br><br>
+    <input size="100" type="text" placeholder="Enter your content here!" name="content"><br><br>
+    <input type="submit" placeholder="Sign Up">
+</form>
+{{form_script}}
+
+
+
+<script>
+    var password = document.getElementById("password")
+        , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword(){
+        if(password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+        } else {
+            confirm_password.setCustomValidity('');
+        }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+</script>

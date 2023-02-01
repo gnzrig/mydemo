@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko" xmlns:og="http://ogp.me/ns#">
+    <head>
+        <title>{{SYS_TITLE}}</title>
+        <meta name="apple-mobile-web-app-capable" content="no">
+        <meta name="mobile-web-app-capable" content="no">
+        <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <meta property="og:description" content="Learning management system" />
+        <meta property="og:image" content="{{webUrl}}{{SITE_INFO.logo_url}}">
+
+<!--        <link rel="stylesheet" type="text/css" href="/common/css/skin.css" />-->
+
+        <!--@if(login_block)--><script>checkSession({{SITE_INFO.session_hour}})</script><!--/if(login_block)-->
+        <!--@if(LOCALE_STYLE)-->
+        <style type="text/css">
+            body , h1 , h2 , h3 , h4,h5 {font-family: calibri;}
+            div h5 {font-family: calibri!important;font-size: 24px!important;}
+            .menu_wrap #gnb {font-family: Domkrat Mn;}
+            select{font-family: MonFnt25;}
+            .content_title{font-family: calibri!important;}
+            #wrap_classroom .col_lesson_idx {width: 45px;}
+            #wrap_classroom .col_lesson_nm {margin: 0 60px 0 160px;}
+        </style>
+        <!--/if(LOCALE_STYLE)-->
+        <style>
+            @media (max-width: 1200px){
+                #wrap_classroom .col_lesson_idx:after {content:" {{common.no}}";}
+            }
+            @media all and (max-width:767px) {
+                .type_list.board_list tbody tr td:nth-child(5):before {content:"{{common.views}}: ";}
+                .type_list.board_youtube_list tbody tr td:nth-child(6):before {content:"{{common.views}}: ";}
+                .type_list.certificate_list tbody tr td:nth-child(5) button:before {content:"{{list.mypage.certificate_list.course_confirm}} ";}
+                .type_list.certificate_list tbody tr td:nth-child(6) button:before {content:"{{list.mypage.certificate_list.certificates}} ";}
+                .type_list.order_item_list tbody tr td:nth-child(3):before {content:"{{view.mypage.order.order_size}} ";}
+                .type_list.order_item_list tbody tr td:nth-child(4):before {content:"{{view.mypage.order.discount_amount}} ";}
+                .type_list.order_item_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
+                .type_list.order_item_list tbody tr td:nth-child(7):before {content:"{{view.mypage.order.refund_cancel}} ";}
+                .type_list.refund_list tbody tr td:nth-child(3):before {content:"{{view.mypage.order.order_size}} ";}
+                .type_list.refund_list tbody tr td:nth-child(4):before {content:"{{view.mypage.order.discount_amount}} ";}
+                .type_list.refund_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
+                .type_list.refund_list tbody tr td:nth-child(6):before {content:"{{list.mypage.order_list.choose_pay_condition}} ";}
+                .type_list.comp_list tbody tr td:nth-child(3):before {content:"{{payment.unit_price}} ";}
+                .type_list.comp_list tbody tr td:nth-child(4):before {content:"{{common.quantity}} ";}
+                .type_list.comp_list tbody tr td:nth-child(4):after {content:"{{common.unit}}";}
+                .type_list.comp_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
+                .type_list.coupon_list tbody tr td:nth-child(3):before {content:"{{list.mypage.coupon_list.discount_ben}} ";}
+                .type_list.coupon_list tbody tr td:nth-child(4):before {content:"{{list.mypage.coupon_list.valid_date}} ";}
+                .type_list.message_list tbody tr td:nth-child(4):before {content:"{{list.mypage.message_list.sent_user}} ";}
+                .type_list.message_list tbody tr td:nth-child(5):before {content:"{{list.mypage.message_list.receiving_date}} ";}
+                .type_list.message_list tbody tr td:nth-child(6):before {content:"{{list.mypage.message_list.confirmation_date}} ";}
+                .type_list.cart_list tbody tr td:nth-child(4):before {content: "{{common.price}} ";}
+                .type_list.cart_list tbody tr td:nth-child(5):before {content: "{{common.quantity}} ";}
+                .type_list.cart_list tbody tr td:nth-child(6):before {content: "{{common.total}} ";}
+                .type_list.payment_list tbody tr td:nth-child(2):before {content:"{{view.payment.price}} ";}
+                .type_list.payment_list tbody tr td:nth-child(3):before {content:"{{common.quantity}} ";}
+                .type_list.payment_list tbody tr td:nth-child(4):before {content:"{{view.payment.sale}} ";}
+                .type_list.payment_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
+                .mobile-check-all:before {content:'{{sysop.cart_list.selectAll}} ';padding-right:5px;}
+            }
+        </style>
+    </head>

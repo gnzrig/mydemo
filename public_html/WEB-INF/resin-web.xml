@@ -1,0 +1,19 @@
+<web-app xmlns="http://caucho.com/ns/resin">
+  <!-- configures the default class loader -->
+  <class-loader>
+	  <compiling-loader path="WEB-INF/classes" source="/home/newexam/src"/>
+    <library-loader path="WEB-INF/lib"/>
+  </class-loader>
+  <javac compiler="internal" args="-encoding UTF-8 -Xlint:unchecked"/>
+    <database>
+        <jndi-name>jdbc/lms</jndi-name>
+        <driver type="com.mysql.jdbc.Driver">
+            <url>jdbc:mysql://127.0.0.1:3305/mydemo?autoReconnect=true</url>
+            <user>root</user>
+            <password>123456</password>
+        </driver>
+        <prepared-statement-cache-size>8</prepared-statement-cache-size>
+        <max-connections>4</max-connections>
+        <max-idle-time>30s</max-idle-time>
+    </database>
+</web-app>

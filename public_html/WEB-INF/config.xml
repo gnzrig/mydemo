@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+        <env>
+        <docRoot>/home/newexam/public_html</docRoot>
+        <tplRoot>/home/newexam/public_html/html</tplRoot>
+        <dataDir>/home/newexam/public_html/data</dataDir>
+        <dataUrl>/data</dataUrl>
+        <logDir>/home/newexam/public_html/data/log</logDir>
+        <webUrl>http://lms.malgnlms.com</webUrl>
+        <fileDir>/home/newexam/public_html/data/file</fileDir>
+        <jndi>jdbc/lms</jndi>
+        <mailFrom>lms@malgnlms.com</mailFrom>
+        <was>resin</was>
+        <encoding>utf-8</encoding>
+        <ownerAccount>lms</ownerAccount>
+        <windowTitle>LMS 호스팅</windowTitle>
+        <useSeq>N</useSeq>
+        <seqTable>tb_sequence</seqTable>
+        <maxPostSize>1024</maxPostSize>
+        <denyHtml>Y</denyHtml>
+        </env>
+</config>

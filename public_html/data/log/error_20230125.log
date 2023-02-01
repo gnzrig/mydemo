@@ -1,0 +1,279 @@
+[2023-01-25 14:38:57] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 14:40:36] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 14:52:11] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:52:49] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:10] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:12] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:12] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:12] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:13] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:13] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:13] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:13] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:13] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:13] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:15] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:53:16] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:56:44] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:56:46] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 14:57:29] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 14:58:03] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:00:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''true';characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''true';characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''true';characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:00:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''true';characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''true';characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''true';characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:02:54] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:03:44] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:03:45] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:03:45] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set. (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.) (The connection property 'useUnicode' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'yes;characterEncoding=utf8;useSSL=false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:03:46] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:01] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:01] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:04:18] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:33] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:34] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:34] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:34] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:34] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:34] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:34] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:35] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'false;serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:43] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''false';serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''false';serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''false';serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:55] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''false';serverTimezone=CTT' is not in this set. (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''false';serverTimezone=CTT' is not in this set.) (The connection property 'useSSL' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value ''false';serverTimezone=CTT' is not in this set.)
+[2023-01-25 15:04:59] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:05:00] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:05:35] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:05:43] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:05:44] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:05:45] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:05:57] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:08:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'autoReconnect' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;user=root;password=1234' is not in this set. (The connection property 'autoReconnect' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;user=root;password=1234' is not in this set.) (The connection property 'autoReconnect' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;user=root;password=1234' is not in this set.)
+[2023-01-25 15:08:27] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} The connection property 'autoReconnect' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;user=root;password=1234' is not in this set. (The connection property 'autoReconnect' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;user=root;password=1234' is not in this set.) (The connection property 'autoReconnect' only accepts values of the form: 'true', 'false', 'yes' or 'no'. The value 'true;user=root;password=1234' is not in this set.)
+[2023-01-25 15:08:32] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:10:45] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:10:46] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:10:46] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:10:47] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:10:47] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:11:07] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:11:07] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:11:08] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:11:08] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. (Could not create connection to database server.) (Could not create connection to database server.)
+[2023-01-25 15:11:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:12:50] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:13:20] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:14:14] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:14:26] at /main/index.jsp
+at /main/index.jsp
+{DB.query} SELECT * FROM tb_user WHERE id = 1 => Table 'lms.tb_user' doesn't exist (Table 'lms.tb_user' doesn't exist) (Table 'lms.tb_user' doesn't exist)
+[2023-01-25 15:14:41] at /main/index.jsp
+at /main/index.jsp
+{DB.query} SELECT * FROM tb_user WHERE id = 1 => Table 'lms.tb_user' doesn't exist (Table 'lms.tb_user' doesn't exist) (Table 'lms.tb_user' doesn't exist)
+[2023-01-25 15:15:43] at /main/index.jsp
+at /main/index.jsp
+{DB.query} SELECT * FROM tb_user WHERE id = 1 => Table 'lms.tb_user' doesn't exist (Table 'lms.tb_user' doesn't exist) (Table 'lms.tb_user' doesn't exist)
+[2023-01-25 15:18:55] at /main/index.jsp
+at /main/index.jsp
+{DB.query} SELECT * FROM tb_user WHERE id = 1 => Table 'lms.tb_user' doesn't exist (Table 'lms.tb_user' doesn't exist) (Table 'lms.tb_user' doesn't exist)
+[2023-01-25 15:19:23] at /main/index.jsp
+at /main/index.jsp
+{DB.query} SELECT * FROM tb_user WHERE id = 1 => Table 'lms.tb_user' doesn't exist (Table 'lms.tb_user' doesn't exist) (Table 'lms.tb_user' doesn't exist)
+[2023-01-25 15:29:10] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:30:06] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:30:15] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:38:23] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:38:43] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:41:10] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:50:01] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:50:41] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:51:05] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:51:11] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 15:53:38] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 16:00:02] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 16:00:04] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 16:00:39] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
+[2023-01-25 16:00:42] at /main/index.jsp
+at /main/index.jsp
+{DB.getConnection} Could not create connection to database server. Attempted reconnect 3 times. Giving up. (Could not create connection to database server. Attempted reconnect 3 times. Giving up.) (Could not create connection to database server. Attempted reconnect 3 times. Giving up.)
