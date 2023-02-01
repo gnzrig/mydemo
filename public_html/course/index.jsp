@@ -10,8 +10,6 @@
     f.addElement("course_desc", null, "course description");
 
     CourseDao courseDao = new CourseDao();
-    courseDao.setDebug();
-    courseDao.setDebug(out);
 
     DataSet clist = courseDao.find("user_id = " + userId);
 //    while (clist.next()){
