@@ -1,4 +1,9 @@
 <%@ include file="init.jsp" %><%
+    if(userId == 0){
+        m.jsAlert("Sign in first!!!!!");
+        m.jsReplace("./index.jsp", "parent");
+        return;
+    }
 
     UserDao userDao = new UserDao();
     DataSet users = userDao.find("");

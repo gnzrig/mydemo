@@ -1,0 +1,29 @@
+<form name="form1" method="post">
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Course name</th>
+            <th>Course Description</th>
+            <th>Course picture</th>
+            <th>Order</th>
+        </tr>
+        <!--@loop(clist)-->
+        <tr>
+            <td>{{clist.id}}</td>
+            <td>{{clist.course_name}}</td>
+            <td>{{clist.course_desc}}</td>
+            <td><input type="file">{{clist.course_pic}}</td>
+            <td><input value="{{clist.id}}" type="checkbox" onclick="f(this.value);"></td>
+        </tr>
+        <!--/loop(clist)-->
+    </table>
+    <button type="submit">Submit</button>
+</form>
+
+
+<script>
+    let a = "";
+    function f(val) {
+        a = a + "," + val;
+    }
+</script>

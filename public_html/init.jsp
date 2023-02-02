@@ -53,6 +53,12 @@ if(auth.isValid()) {
     p.setVar("login_block", true);
 }
 
+String sysLocale = m.getCookie("SITE_LANG");
+m.setCookie("SITE_LANG", sysLocale);
+Message _message = new Message(sysLocale);
+m.setMessage(_message);
+p.setMessage(_message);
+
 //IP차단
 
 p.setRequest(request);

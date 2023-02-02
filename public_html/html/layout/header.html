@@ -25,39 +25,25 @@
         </style>
         <!--/if(LOCALE_STYLE)-->
         <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
             @media (max-width: 1200px){
                 #wrap_classroom .col_lesson_idx:after {content:" {{common.no}}";}
             }
-            @media all and (max-width:767px) {
-                .type_list.board_list tbody tr td:nth-child(5):before {content:"{{common.views}}: ";}
-                .type_list.board_youtube_list tbody tr td:nth-child(6):before {content:"{{common.views}}: ";}
-                .type_list.certificate_list tbody tr td:nth-child(5) button:before {content:"{{list.mypage.certificate_list.course_confirm}} ";}
-                .type_list.certificate_list tbody tr td:nth-child(6) button:before {content:"{{list.mypage.certificate_list.certificates}} ";}
-                .type_list.order_item_list tbody tr td:nth-child(3):before {content:"{{view.mypage.order.order_size}} ";}
-                .type_list.order_item_list tbody tr td:nth-child(4):before {content:"{{view.mypage.order.discount_amount}} ";}
-                .type_list.order_item_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
-                .type_list.order_item_list tbody tr td:nth-child(7):before {content:"{{view.mypage.order.refund_cancel}} ";}
-                .type_list.refund_list tbody tr td:nth-child(3):before {content:"{{view.mypage.order.order_size}} ";}
-                .type_list.refund_list tbody tr td:nth-child(4):before {content:"{{view.mypage.order.discount_amount}} ";}
-                .type_list.refund_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
-                .type_list.refund_list tbody tr td:nth-child(6):before {content:"{{list.mypage.order_list.choose_pay_condition}} ";}
-                .type_list.comp_list tbody tr td:nth-child(3):before {content:"{{payment.unit_price}} ";}
-                .type_list.comp_list tbody tr td:nth-child(4):before {content:"{{common.quantity}} ";}
-                .type_list.comp_list tbody tr td:nth-child(4):after {content:"{{common.unit}}";}
-                .type_list.comp_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
-                .type_list.coupon_list tbody tr td:nth-child(3):before {content:"{{list.mypage.coupon_list.discount_ben}} ";}
-                .type_list.coupon_list tbody tr td:nth-child(4):before {content:"{{list.mypage.coupon_list.valid_date}} ";}
-                .type_list.message_list tbody tr td:nth-child(4):before {content:"{{list.mypage.message_list.sent_user}} ";}
-                .type_list.message_list tbody tr td:nth-child(5):before {content:"{{list.mypage.message_list.receiving_date}} ";}
-                .type_list.message_list tbody tr td:nth-child(6):before {content:"{{list.mypage.message_list.confirmation_date}} ";}
-                .type_list.cart_list tbody tr td:nth-child(4):before {content: "{{common.price}} ";}
-                .type_list.cart_list tbody tr td:nth-child(5):before {content: "{{common.quantity}} ";}
-                .type_list.cart_list tbody tr td:nth-child(6):before {content: "{{common.total}} ";}
-                .type_list.payment_list tbody tr td:nth-child(2):before {content:"{{view.payment.price}} ";}
-                .type_list.payment_list tbody tr td:nth-child(3):before {content:"{{common.quantity}} ";}
-                .type_list.payment_list tbody tr td:nth-child(4):before {content:"{{view.payment.sale}} ";}
-                .type_list.payment_list tbody tr td:nth-child(5):before {content:"{{list.mypage.order_list.amount_payment}} ";}
-                .mobile-check-all:before {content:'{{sysop.cart_list.selectAll}} ';padding-right:5px;}
+            form {
+                margin: auto;
             }
+            form input,button{
+                margin: 10px;
+            }
+            button{
+                padding: 5px;
+                background-color: slategray;
+                color: aliceblue;
+            }
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         </style>
     </head>

@@ -1,5 +1,11 @@
 <%@ include file="init.jsp" %><%@ page import="java.util.*,java.io.*,dao.*,malgnsoft.db.*,malgnsoft.util.*" %><%
 
+    if(m.rs("lang") != ""){
+        m.setCookie("SITE_LANG", m.rs("lang"));
+        _message.reloadAll();
+        m.jsReplace("./index.jsp");
+    }
+
     UserDao userDao = new UserDao();
     DataSet user = userDao.find("id = " +userId);
     while(user.next()){

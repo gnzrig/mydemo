@@ -1,0 +1,86 @@
+<!--@include(layout/header.html)-->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: lightsteelblue;
+    }
+    #top-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #top-menu ul {
+        list-style: none;
+        padding:10px;
+    }
+    #top-menu ul li{
+        margin: 0px;
+    }
+
+    #lang {
+        margin-left: 5px;
+        border: 1px dotted gray;
+    }
+
+    #top-menu ul li a{
+        text-decoration: none;
+        padding: 10px 30px;
+    }
+    #top-menu ul li a:hover{
+        background-color: slategray;
+    }
+    #top-menu h1{
+        color: aliceblue;
+    }
+    #menu-list{
+        display: flex;
+        flex-direction: row;
+    }
+    #menu-list li select{
+        border-left: 1px dotted gray;
+    }
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    input {
+        height: 30px;
+    }
+
+</style>
+
+<div class="container">
+    <div id="top-menu">
+        <div id="logo">
+            <h1>Demo project</h1>
+        </div>
+        <ul id="menu-list">
+            <li><a href="/main/index.jsp">Home</a></li>
+            <!--@if(admin)--><li><a href="/main/user_list.jsp">User list</a></li><!--/if(admin)-->
+            <li><a href="/course/login.jsp">Course list</a></li>
+            <li><a href="/member/info_update.jsp">Person info</a></li>
+            <!--@if(order)--><li><a href="/order/index.jsp">Order</a></li><!--/if(order)-->
+            <li><a href="/member/logout.jsp">Log out</a></li>
+            <li id="lang">Language
+                <select id="langtype" onchange="language(this.value);">
+                    <option>--------</option>
+                    <option name="en" value="en">English</option>
+                    <option name="mn" value="mn">Монгол</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    function language(val) {
+        window.location.href = "./index.jsp?lang=" + val;
+    }
+</script>
