@@ -82,6 +82,7 @@ Page p = new Page(Config.getTplRoot());
 
 
 //Session login
+int siteId = 1;
 int userId = 0;
 String loginId = "";
 String loginMethod = "";
@@ -96,6 +97,11 @@ String userSessionId = "";
 String sysToday = m.time("yyyyMMdd");
 String sysNow = m.time();
 
+SiteDao siteDao = new SiteDao();
+DataSet siteinfo = siteDao.find("");
+while (siteinfo.next()){
+
+}
 
 Auth auth = new Auth(request, response);
 auth.loginURL = "/course/login.jsp";
@@ -110,6 +116,12 @@ if(auth.isValid()) {
 
     p.setVar("login_block", true);
 }
+
+String sysLocale = m.getCookie("SITE_LANG");
+m.setCookie("SITE_LANG", sysLocale);
+Message _message = new Message(sysLocale);
+m.setMessage(_message);
+p.setMessage(_message);
 
 //IP\ucc28\ub2e8
 
@@ -133,6 +145,12 @@ String ch = m.rs("ch", "top");
 
     
 
+    if(m.rs("lang") != ""){
+        m.setCookie("SITE_LANG", m.rs("lang"));
+        _message.reloadAll();
+        m.jsReplace("./index.jsp");
+    }
+
     UserDao userDao = new UserDao();
     DataSet user = userDao.find("id = " +userId);
     while(user.next()){
@@ -153,11 +171,14 @@ String ch = m.rs("ch", "top");
 //
 //    username = (String) users.get(0).get("username");
 
+    m.log(String.valueOf(m.arr2loop(siteDao.siteLanguage)));
+
 p.setLayout(ch);
 p.setBody("main.index");
 p.setVar("username", user.s("username"));
 p.setVar("user", user);
 p.setVar("userID", userId);
+p.setVar("asdf", siteinfo.s("locale"));
 p.display();
 
   }
@@ -219,13 +240,13 @@ p.display();
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("main/index.jsp"), 6895315784283911159L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("main/index.jsp"), -431346307708041991L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("main/init.jsp"), -8025075245621299000L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -8880833908526973471L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -1694935572683716796L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
   }

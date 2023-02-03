@@ -111,6 +111,9 @@ if(auth.isValid()) {
     p.setVar("login_block", true);
 }
 
+String sysLocale = "en";
+m.setCookie("SITE_LANG", sysLocale);
+
 //IP\ucc28\ub2e8
 
 p.setRequest(request);
@@ -146,8 +149,6 @@ p.setBaseRoot("/home/newexam/public_html/html");
     f.addElement("course_desc", null, "course description");
 
     CourseDao courseDao = new CourseDao();
-    courseDao.setDebug();
-    courseDao.setDebug(out);
 
     DataSet clist = courseDao.find("user_id = " + userId);
 //    while (clist.next()){
@@ -233,13 +234,13 @@ p.setBaseRoot("/home/newexam/public_html/html");
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("course/index.jsp"), -5744872456927502612L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("course/index.jsp"), -4911745248119666230L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("course/init.jsp"), 4664154760722677352L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -8880833908526973471L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), 2775297280168857703L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
   }

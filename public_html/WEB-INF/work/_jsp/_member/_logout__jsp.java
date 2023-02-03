@@ -111,6 +111,12 @@ if(auth.isValid()) {
     p.setVar("login_block", true);
 }
 
+String sysLocale = m.getCookie("SITE_LANG");
+m.setCookie("SITE_LANG", sysLocale);
+Message _message = new Message(sysLocale);
+m.setMessage(_message);
+p.setMessage(_message);
+
 //IP\ucc28\ub2e8
 
 p.setRequest(request);
@@ -137,7 +143,7 @@ p.setBaseRoot("/home/newexam/public_html/html");
     
 
     auth.delAuthInfo();
-    m.redirect("../main/index.jsp");
+    m.jsReplace("/main/index.jsp");
 
 
   }
@@ -199,13 +205,13 @@ p.setBaseRoot("/home/newexam/public_html/html");
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("member/logout.jsp"), 2788508496438238034L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("member/logout.jsp"), -4966824404148604482L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("member/init.jsp"), -6125295145581876214L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -8880833908526973471L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), 4219231094691901443L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
   }

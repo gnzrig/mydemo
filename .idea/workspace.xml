@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aafe67f0-1b0d-4da1-b6ff-5b6c4f80ea8a" name="Default Changelist" comment="" />
+    <list default="true" id="aafe67f0-1b0d-4da1-b6ff-5b6c4f80ea8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/classes/dao/SiteDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/message/message_ko.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_category/_index__jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_top__jsp$TagState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_top__jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_top__jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_top__jsp.java.smap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_info_0update__jsp$TagState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_info_0update__jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_info_0update__jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_info_0update__jsp.java.smap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_order/_index__jsp$TagState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_order/_index__jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_order/_index__jsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_order/_index__jsp.java.smap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/category/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/category/init.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/common/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/data/log/debug_20230203.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/html/category/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_html/html/layout/layout_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/SiteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/SiteMapLocale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/message/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/message/message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_index__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_course/_login__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_inc/_footer__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_index__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_main/_user_0list__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_login__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp$TagState.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp$TagState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp.java.smap" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/WEB-INF/work/_jsp/_member/_logout__jsp.java.smap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/html/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/html/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/html/layout/layout_course.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/html/layout/layout_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/html/layout/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/html/layout/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/html/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/html/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/inc/init.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/inc/init.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/inc/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/inc/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/init.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/init.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/main/index.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -26,8 +89,11 @@
     <scope name="new_line" pattern="\\n" />
   </component>
   <component name="ProjectId" id="2KlFjHouDS4VR7DKcplOODxNH7k" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -36,7 +102,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public_html/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public_html/WEB-INF/message" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -47,6 +113,8 @@
       <recent name="dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\home\newexam\public_html\WEB-INF\message" />
+      <recent name="D:\home\newexam\public_html\common\js" />
       <recent name="D:\home\newexam\public_html\WEB-INF\lib" />
     </key>
   </component>
@@ -81,8 +149,18 @@
       <workItem from="1674788078574" duration="21625000" />
       <workItem from="1675041639388" duration="16665000" />
       <workItem from="1675135762730" duration="6620000" />
-      <workItem from="1675213993279" duration="12382000" />
+      <workItem from="1675213993279" duration="12969000" />
+      <workItem from="1675302029104" duration="25195000" />
+      <workItem from="1675387099763" duration="20969000" />
     </task>
+    <task id="LOCAL-00001" summary="user information update. Multiple language setting.">
+      <created>1675335054578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675335054578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,10 +171,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="user information update. Multiple language setting." />
+    <option name="LAST_COMMIT_MESSAGE" value="user information update. Multiple language setting." />
   </component>
 </project>

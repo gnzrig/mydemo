@@ -26,10 +26,13 @@
 //
 //    username = (String) users.get(0).get("username");
 
+    m.log(String.valueOf(m.arr2loop(siteDao.siteLanguage)));
+
 p.setLayout(ch);
 p.setBody("main.index");
 p.setVar("username", user.s("username"));
 p.setVar("user", user);
 p.setVar("userID", userId);
+p.setVar("asdf", siteinfo.s("locale"));
 p.display();
 %>

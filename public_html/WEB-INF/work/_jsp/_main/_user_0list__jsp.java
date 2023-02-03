@@ -132,6 +132,11 @@ String ch = m.rs("ch", "top");
 
 
     
+    if(userId == 0){
+        m.jsAlert("Sign in first!!!!!");
+        m.jsReplace("./index.jsp", "parent");
+        return;
+    }
 
     UserDao userDao = new UserDao();
     DataSet users = userDao.find("");
@@ -212,7 +217,7 @@ String ch = m.rs("ch", "top");
     String resourcePath = loader.getResourcePathSpecificFirst();
     mergePath.addClassPath(resourcePath);
     com.caucho.vfs.Depend depend;
-    depend = new com.caucho.vfs.Depend(appDir.lookup("main/user_list.jsp"), 4577285609612311572L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("main/user_list.jsp"), -7014808466604530000L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
     depend = new com.caucho.vfs.Depend(appDir.lookup("main/init.jsp"), -8025075245621299000L, false);

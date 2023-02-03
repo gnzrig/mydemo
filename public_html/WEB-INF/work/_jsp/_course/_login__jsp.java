@@ -96,6 +96,11 @@ String userSessionId = "";
 String sysToday = m.time("yyyyMMdd");
 String sysNow = m.time();
 
+SiteDao siteDao = new SiteDao();
+DataSet siteinfo = siteDao.find("");
+while (siteinfo.next()){
+
+}
 
 Auth auth = new Auth(request, response);
 auth.loginURL = "/course/login.jsp";
@@ -110,6 +115,12 @@ if(auth.isValid()) {
 
     p.setVar("login_block", true);
 }
+
+String sysLocale = m.getCookie("SITE_LANG");
+m.setCookie("SITE_LANG", sysLocale);
+Message _message = new Message(sysLocale);
+m.setMessage(_message);
+p.setMessage(_message);
 
 //IP\ucc28\ub2e8
 
@@ -246,7 +257,7 @@ p.setBaseRoot("/home/newexam/public_html/html");
     depend = new com.caucho.vfs.Depend(appDir.lookup("course/init.jsp"), 4664154760722677352L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -8880833908526973471L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -2173670501226757035L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
   }

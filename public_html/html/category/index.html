@@ -1,0 +1,30 @@
+<form name="form1" method="post">
+    <div id="categoryId">
+        <label>Category name:</label>
+        <!--@loop(languages)-->
+        <input type="text" id="input" name="cat_name_{{languages.id}}" {{languages.checked}}
+               class="cat_name_{{languages.id}} display" size="20" placeholder="{{languages.value}}">
+        <!--/loop(languages)-->
+        <select onclick="setLang(this);">
+            <!--@loop(languages)-->
+            <option value="{{languages.id}}" {{languages.selected}}>{{languages.name}}</option>
+            <!--/loop(languages)-->
+        </select>
+    </div>
+
+    <br>
+    <input type="submit">
+</form>
+{{form_script}}
+
+<script>
+    function setLang(val) {
+        let a = document.getElementsByClassName("cat_name_" + val.value).item(0);
+        let b = document.getElementsByClassName("display");
+        for(let i = 0; i < b.length; i++){
+            b[i].style.display = "none";
+        }
+        a.style.display = "inline-block";
+    }
+
+</script>

@@ -82,6 +82,7 @@ Page p = new Page(Config.getTplRoot());
 
 
 //Session login
+int siteId = 1;
 int userId = 0;
 String loginId = "";
 String loginMethod = "";
@@ -96,6 +97,11 @@ String userSessionId = "";
 String sysToday = m.time("yyyyMMdd");
 String sysNow = m.time();
 
+SiteDao siteDao = new SiteDao();
+DataSet siteinfo = siteDao.find("");
+while (siteinfo.next()){
+
+}
 
 Auth auth = new Auth(request, response);
 auth.loginURL = "/course/login.jsp";
@@ -110,6 +116,12 @@ if(auth.isValid()) {
 
     p.setVar("login_block", true);
 }
+
+String sysLocale = m.getCookie("SITE_LANG");
+m.setCookie("SITE_LANG", sysLocale);
+Message _message = new Message(sysLocale);
+m.setMessage(_message);
+p.setMessage(_message);
 
 //IP\ucc28\ub2e8
 
@@ -127,6 +139,10 @@ p.setBaseRoot("/home/newexam/public_html/html");
 
 
     
+
+    boolean admin = false;
+    boolean order = false;
+    boolean login = false;
 
     String ch = m.rs("ch", "inc");
 
@@ -201,10 +217,10 @@ p.setBaseRoot("/home/newexam/public_html/html");
     depend = new com.caucho.vfs.Depend(appDir.lookup("inc/footer.jsp"), -1194172037115425332L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("inc/init.jsp"), -4059683216003822177L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("inc/init.jsp"), 236165072920864399L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
-    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -8880833908526973471L, false);
+    depend = new com.caucho.vfs.Depend(appDir.lookup("init.jsp"), -1694935572683716796L, false);
     _caucho_depends.add(depend);
     loader.addDependency(depend);
   }

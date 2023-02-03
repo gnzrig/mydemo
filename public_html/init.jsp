@@ -24,6 +24,7 @@ Page p = new Page(Config.getTplRoot());
 
 
 //Session login
+int siteId = 1;
 int userId = 0;
 String loginId = "";
 String loginMethod = "";
@@ -38,6 +39,11 @@ String userSessionId = "";
 String sysToday = m.time("yyyyMMdd");
 String sysNow = m.time();
 
+SiteDao siteDao = new SiteDao();
+DataSet siteinfo = siteDao.find("");
+while (siteinfo.next()){
+
+}
 
 Auth auth = new Auth(request, response);
 auth.loginURL = "/course/login.jsp";
