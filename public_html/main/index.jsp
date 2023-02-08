@@ -26,7 +26,6 @@
 //
 //    username = (String) users.get(0).get("username");
 
-    m.log(String.valueOf(m.arr2loop(siteDao.siteLanguage)));
 
 p.setLayout(ch);
 p.setBody("main.index");

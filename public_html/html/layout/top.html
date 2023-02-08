@@ -71,11 +71,10 @@
             <!--@if(login)--><li><a href="/member/login.jsp">Sign in</a></li><!--/if(login)-->
             <!--@if(login)--><li><a href="/member/sign_up.jsp">Sign up</a></li><!--/if(login)-->
             <li id="lang">Language
-                <select id="langtype" onchange="language(this.value);">
-                    <option>--------</option>
-                    <option name="en" value="en">English</option>
-                    <option name="mn" value="mn">Монгол</option>
-                    <option name="ko" value="ko">Korean</option>
+                <select id="langtype" onchange="setLanguage(this.value);">
+                    <!--@loop(languages)-->
+                    <option value="{{languages.id}}" {{languages.sel}} {{languages.isYN}}>{{languages.value}} </option>
+                    <!--/loop(languages)-->
                 </select>
             </li>
         </ul>
@@ -83,7 +82,10 @@
 </div>
 
 <script>
-    function language(val) {
-        window.location.href = "./index.jsp?lang=" + val;
+    function setLanguage(value) {
+        console.log(value)
+        setCookie("SITE_LANG", value);
+        window.location.reload();
     }
+
 </script>

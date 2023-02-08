@@ -10,7 +10,6 @@
     while (!uinfo.next()){
         m.jsAlert("User not found");
     }
-    m.log(String.valueOf(uinfo.s("username")));
     f.addElement("username", uinfo.s("username"), null);
     f.addElement("email", uinfo.s("email"), null);
     f.addElement("content", uinfo.s("content"), null);
