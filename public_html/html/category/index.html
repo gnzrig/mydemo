@@ -1,21 +1,23 @@
-<form name="form1" method="post">
-    <div id="categoryId">
-        <label>Category name:</label>
-        <!--@loop(languages)-->
-        <input type="text" id="input" name="cat_name_{{languages.id}}" {{languages.checked}}
-               class="cat_name_{{languages.id}} display" placeholder="{{languages.name}}" size="20">
-        <!--/loop(languages)-->
-        <select onclick="setLang(this);">
+<div class="container-main">
+    <form name="form1" method="post">
+        <div id="categoryId">
+            <label>Category name:</label>
             <!--@loop(languages)-->
-            <option value="{{languages.id}}" {{languages.selected}}>{{languages.name}}</option>
+            <input type="text" id="input" name="cat_name_{{languages.id}}" {{languages.checked}}
+                   class="cat_name_{{languages.id}} display" placeholder="{{languages.name}}" size="20">
             <!--/loop(languages)-->
-        </select>
-    </div>
+            <select onclick="setLang(this);">
+                <!--@loop(languages)-->
+                <option value="{{languages.id}}" {{languages.selected}}>{{languages.name}}</option>
+                <!--/loop(languages)-->
+            </select>
+        </div>
 
-    <br>
-    <input type="submit" value="Save">
-</form>
-{{form_script}}
+        <br>
+        <input type="submit" value="Save">
+    </form>
+    {{form_script}}
+</div>
 <script>
     function setLang(val) {
         let a = document.getElementsByClassName("cat_name_" + val.value).item(0);

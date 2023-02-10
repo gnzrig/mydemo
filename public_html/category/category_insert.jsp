@@ -6,7 +6,7 @@
         f.addElement("cat_name_" + activeLanguages.s("id"), null, siteinfo.getString("locale").equals(activeLanguages.s("id")) ? "required:'Y'" : null);
     }
     f.addElement("module_name", null, null);
-    if(m.isPost()){
+    if(m.isPost() && f.validate()){
         categoryDao.item("site_id", 1);
         categoryDao.item("module", f.get("module_name"));
         categoryDao.item("category_nm", f.get("cat_name_" + siteinfo.s("locale")));
@@ -14,7 +14,6 @@
         if(categoryDao.insert()){
             m.jsAlert("Burtgel amjilttai!");
         }
-        m.log(f.get("module_name"));
         activeLanguages.first();
         while(activeLanguages.next()){
                 siteMapLocale.item("sitemap_id", newId);

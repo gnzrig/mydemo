@@ -1,6 +1,4 @@
-<%@ page import="java.util.*,java.io.*,dao.*,malgnsoft.db.*,malgnsoft.util.*" %>
-<%
-
+<%@ page import="java.util.*,java.io.*,dao.*,malgnsoft.db.*,malgnsoft.util.*" %><%
 //request.setCharacterEncoding("utf-8");
 
 String docRoot = Config.getDocRoot();
@@ -60,7 +58,7 @@ if(auth.isValid()) {
 }
 
 String sysLocale = m.getCookie("SITE_LANG");
-m.setCookie("SITE_LANG", sysLocale);
+m.setCookie("SITE_LANG", siteinfo.s("locale"));
 Message _message = new Message(sysLocale);
 m.setMessage(_message);
 p.setMessage(_message);

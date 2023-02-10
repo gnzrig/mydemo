@@ -6,7 +6,6 @@
 
     }
 
-//    m.log(String.valueOf(info.i("id")) + "<==== ID");
     String que = "SELECT sitemap_locale_nm, locale_cd FROM " + siteMapLocale.table + " WHERE sitemap_id = " +
             info.i("id") + " ORDER BY locale_cd ASC";
     DataSet clist = siteMapLocale.query(que);
@@ -30,9 +29,11 @@ if(m.isPost() && f.validate()) {
                 return;
             }
     }
+    m.jsAlert("Amjilttai hadgallaa");
+    m.jsReplace("/main/index.jsp");
 }
 
-    p.setLayout(ch);
+    p.setLayout(null);
     p.setVar("s", siteinfo.s("locale"));
     p.setVar("form_script", f.getScript());
     p.setBody("category.index");

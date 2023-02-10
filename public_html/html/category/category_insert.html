@@ -1,22 +1,24 @@
-<form name="form1" method="post">
-    <div id="categoryId">
-        <label>Category module name :</label>
-        <input type="text" placeholder="module" name="module_name" /><br>
-        <label>Category insert :</label>
-        <!--@loop(languages)-->
-        <input type="text" id="input" name="cat_name_{{languages.id}}" {{languages.checked}}
-               class="cat_name_{{languages.id}} display" placeholder="{{languages.name}}" size="20">
-        <!--/loop(languages)-->
-        <select onclick="setLang(this);">
+<div class="container-main">
+    <form name="form1" method="post">
+        <div id="categoryId">
+            <label>Category module name :</label>
+            <input type="text" placeholder="module" name="module_name" /><br>
+            <label>Category insert :</label>
             <!--@loop(languages)-->
-            <option value="{{languages.id}}" {{languages.selected}}>{{languages.name}}</option>
+            <input type="text" id="input" name="cat_name_{{languages.id}}" {{languages.checked}}
+                   class="cat_name_{{languages.id}} display" placeholder="{{languages.name}}" size="20">
             <!--/loop(languages)-->
-        </select>
-    </div>
-    <br>
-    <input type="submit">
-</form>
-{{form_script}}
+            <select onclick="setLang(this);">
+                <!--@loop(languages)-->
+                <option value="{{languages.id}}" {{languages.selected}}>{{languages.name}}</option>
+                <!--/loop(languages)-->
+            </select>
+        </div>
+        <br>
+        <input type="submit">
+    </form>
+    {{form_script}}
+</div>
 
 <script>
     function setLang(val) {

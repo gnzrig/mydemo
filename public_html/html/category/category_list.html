@@ -1,0 +1,39 @@
+<style>
+    .cat-list{
+        margin-left: 10px;
+    }
+    ul {
+        display: block;
+        list-style-type: circle;
+        /*margin-top: 1em;*/
+        /*margin-bottom: 1em;*/
+        margin-left: 1em;
+        margin-right: 0;
+        padding-left: 10px;
+        display: block;
+    }
+    #tree{
+        display: inline-block;
+        float: left;
+    }
+    #side{
+        background-color: skyblue;
+        width: 500px;
+        height: 500px;
+        float: right;
+    }
+</style>
+
+<div class="container-main" style="margin-top: 20px">
+    <div id="tree">
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // let data = JSON.parse({{json}});
+        console.log({{json}}[0]);
+        console.log({{json}}[0].parent_id);
+        document.getElementById('tree').innerHTML = '<ul>' + createTreeList({{json}}, "") + '</ul>';
+    })
+</script>
