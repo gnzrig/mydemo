@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %><%@ include file="./init.jsp" %><%
 
     if(userId != 0){
-        m.redirect("/course/index.jsp");
+        m.redirect("/order/order_list.jsp");
     }
 
 //User information

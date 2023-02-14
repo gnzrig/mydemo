@@ -1,15 +1,22 @@
 <div class="container-main">
-    <ul>
+
+    <table border="1">
+        <tr>
+            <th>Order id</th>
+            <th>Course id</th>
+            <th>Course name</th>
+            <th>Course desc</th>
+            <th>Order date : </th>
+        </tr>
         <!--@loop(olist)-->
-        <li>
-            {{olist.image_file}}
-        </li>
-        <li>
-            {{olist.course_id}}
-        </li>
-        <li>
-            {{olist.date}}
-        </li>
+            <tr>
+                <td>{{olist.order_id}}</td>
+                <td>{{olist.id}}</td>
+                <td>{{olist.course_name}}</td>
+                <td>{{olist.course_desc}}</td>
+                <td>{{olist.order_date}}</td>
+            </tr>
         <!--/loop(olist)-->
-    </ul>
+    </table>
+
 </div>

@@ -18,7 +18,7 @@
             clist.put("space", "");
         }
     }
-    m.jsReplace("");
+
     p.setLayout(ch);
     p.setBody("category.category_list");
     p.setLoop("clist", clist);

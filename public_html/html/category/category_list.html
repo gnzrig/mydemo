@@ -32,8 +32,6 @@
 <script>
     $(document).ready(function () {
         // let data = JSON.parse({{json}});
-        console.log({{json}}[0]);
-        console.log({{json}}[0].parent_id);
         document.getElementById('tree').innerHTML = '<ul>' + createTreeList({{json}}, "") + '</ul>';
     })
 </script>

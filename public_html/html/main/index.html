@@ -15,5 +15,30 @@
         {{main.test}}<br>
         {{main.test1}}<br>
         {{asdf}}
+        <hr>
+        <section aria-label="Newest Photos">
+
+            <div class="carousel">
+                <button class="carousel-button prev" onclick="plusSlides(-1)">&#8656;</button>
+                <button class="carousel-button next" onclick="plusSlides(1)">&#8658;</button>
+                <ul>
+                    <li class="slide fade">
+                        <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image">
+                    </li>
+                    <li class="slide fade">
+                        <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image">
+                    </li>
+                    <li class="slide fade">
+                        <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image">
+                    </li>
+                </ul>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+        </section>
     </div>
 </div>

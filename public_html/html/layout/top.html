@@ -31,7 +31,7 @@
 
     #top-menu ul li a{
         text-decoration: none;
-        padding: 10px 30px;
+        padding: 10px 10px;
     }
     #top-menu ul li a:hover{
         background-color: slategray;
@@ -71,8 +71,8 @@
         <ul id="menu-list">
             <li><a href="/main/index.jsp">Home</a></li>
             <!--@if(admin)--><li><a href="/main/user_list.jsp">User list</a></li><!--/if(admin)-->
-            <li><a href="/course/login.jsp">Course list</a></li>
             <li><a href="/member/info_update.jsp">Person info</a></li>
+            <li><a href="/course/login.jsp">Order list</a></li>
             <!--@if(order)--><li><a href="/order/index.jsp">Order</a></li><!--/if(order)-->
             <!--@if(order)--><li><a href="/member/logout.jsp">Log out</a></li><!--/if(order)-->
             <!--@if(login)--><li><a href="/member/login.jsp">Sign in</a></li><!--/if(login)-->
@@ -91,7 +91,6 @@
 
 <script>
     function setLanguage(value) {
-        console.log(value)
         setCookie("SITE_LANG", value);
         window.location.reload();
     }

@@ -2,6 +2,7 @@
 
     if(userId == 1){
         admin = true;
+        order = true;
     } else if(userId != 0) {
         order = true;
     } else {

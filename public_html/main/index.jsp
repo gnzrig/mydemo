@@ -11,6 +11,7 @@
     while(user.next()){
         user.put("username", user.s("username"));
     }
+
 //    userId = auth.getInt("ID");
 
 //    while (users.next()){

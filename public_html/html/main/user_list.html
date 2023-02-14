@@ -1,6 +1,18 @@
+<style>
+    .container-main ul li{
+        margin: 5px;
+    }
+    .container-main table, tr, th, td {
+        padding: 5px;
+        border: 1px;
+        border: 1px solid black;
+    }
 
-<div id="container">
-        <table border="1">
+
+</style>
+
+<div class="container-main">
+        <table>
             <tr>
                 <th>ID</th>
                 <th>Username</th>
@@ -14,8 +26,13 @@
                 <td>{{users.username}}</td>
                 <td>{{users.email}}</td>
                 <td>{{users.content}}</td>
-                <td><a href=""></a></td>
+                <td><button href="#" value="{{users.id}}" onclick="delet(this.value);">Delete</button></td>
             </tr>
         <!--/loop(users)-->
         </table>
 </div>
+<script>
+    function delet(val) {
+        window.location.href="/main/user_list.jsp?did=" + val;
+    }
+</script>

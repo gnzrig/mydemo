@@ -11,7 +11,7 @@
 
     CourseDao courseDao = new CourseDao();
 
-    DataSet clist = courseDao.find("user_id = " + userId);
+//    DataSet clist = courseDao.find("user_id = " + userId);
 //    while (clist.next()){
 //        clist.put("course_desc", clist.s("course_desc"));
 //    }
@@ -32,7 +32,6 @@
 
     p.setLayout(ch);
     p.setBody("course.index");
-    p.setLoop("clist", clist);
     p.setVar("form_script", f.getScript());
     p.display();
 %>

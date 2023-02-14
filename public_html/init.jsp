@@ -1,4 +1,4 @@
-<%@ page import="java.util.*,java.io.*,dao.*,malgnsoft.db.*,malgnsoft.util.*" %><%
+<%@ page import="java.util.*,java.io.*,dao.*,malgnsoft.db.*,malgnsoft.util.*,java.net.*" %><%
 //request.setCharacterEncoding("utf-8");
 
 String docRoot = Config.getDocRoot();

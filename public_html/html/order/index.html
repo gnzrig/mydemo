@@ -1,4 +1,6 @@
 <div class="container-main">
+    <label>My order List >> </label>
+    <a href="/order/order_list.jsp" style="border: 2px solid red;display: inline-block ;margin: 10px;">My order list</a>
     <form name="form1" method="post">
         <table border="1">
             <tr>
@@ -13,19 +15,51 @@
                 <td>{{clist.id}}</td>
                 <td>{{clist.course_name}}</td>
                 <td>{{clist.course_desc}}</td>
-                <td><input type="file" name="file">{{clist.course_pic}}</td>
-                <td><input value="{{clist.id}}" type="checkbox" onclick="f(this.value);"></td>
+                <td><input type="file" id="file" name="file">{{clist.course_pic}}</td>
+                <td><input value="{{clist.id}}" type="checkbox" class="checkbox"></td>
             </tr>
             <!--/loop(clist)-->
         </table>
-        <button type="submit">Submit</button>
+        <input type="button" onclick="checkedLists();" value=" Save ">
     </form>
 </div>
 
-
 <script>
-    let a = "";
-    function f(val) {
-        a = a + "," + val;
+    // let ids = "|";
+    // function f(val) {
+    //     let checkb = document.getElementsByClassName("checkbox");
+    //     for(let i = 0; i < checkb.length ; i++){
+    //         if(checkb[i].checked){
+    //             ids.indexOf("|", 1) > 0 ? (ids.indexOf("|" + val + "|") > 0 ? ids += "" :  ids = ids + val + "|") : ids = ids + val + "|";
+    //         }
+    //         else {
+    //             // ids.indexOf("|" + val + "|") > 0 ? ids = ids.substring(ids.indexOf("|" + val + "|") + 1, val.length + 1) : ids = ids + "";
+    //             console.log(ids.substring(ids.indexOf("|" + val + "|"), val.length + 1));
+    //         }
+    //     }
+    // }
+
+    function checkedLists() {
+        let string = "";
+        let checkboxes = document.getElementsByClassName("checkbox");
+        for(let checkbox of checkboxes){
+            if(checkbox.checked){
+                string = string + "," + checkbox.value;
+            }
+        }
+        window.location.href = "/order/order_insert.jsp?ids=" + string.substring(1);
     }
+
+    $(document).ready(function () {
+        const input = document.getElementById('file');
+
+        input.addEventListener('change', function() {
+            const file = input.files[0];
+            const path = file.path;
+            alert(path);
+        });
+    })
+
+
+
 </script>

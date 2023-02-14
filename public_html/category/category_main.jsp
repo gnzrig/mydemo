@@ -3,5 +3,7 @@
 
     p.setLayout(ch);
     p.setBody("category.category_main");
+    p.setVar("cid", m.qs("cid"));
+    m.log(m.qs("cid"));
     p.display();
 %>
